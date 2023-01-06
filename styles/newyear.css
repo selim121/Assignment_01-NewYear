@@ -113,6 +113,49 @@
     padding-top: 20px;
 }
 
+/* Helping hand */
+
+.helping-plan{
+    margin-top: 100px;
+    text-align: center;
+}
+.plan-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px 150px 30px 150px;
+}
+.plan-item{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
+}
+.item1-color:hover{
+    background-color: rgb(113, 225, 237);
+}
+.item2-color:hover{
+    background-color: rgb(255, 145, 242);
+}
+.item3-color:hover{
+    background-color: rgb(255, 223, 164);
+}
+.icon{
+    padding: 30px 0;
+}
+.plun-sub-title{
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.plan-sub-description{
+    font-family: 'Poppins';
+    font-weight: 400px;
+    font-size: 20px;
+}
+
+
 /* Contact section */
 
 .contact{
