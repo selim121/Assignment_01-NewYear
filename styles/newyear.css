@@ -79,4 +79,40 @@
     width: 25px;
 }
 
+/* My plans section */
+
+.section-plan{
+    margin-bottom: 100px;
+}
+.plan-title{
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 40px;
+}
+.plan{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+.plan-items{
+    text-align: center;
+}
+.plan-items-title{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    padding-top: 20px;
+}
+.plan-items-description{
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-top: 20px;
+}
+
 
