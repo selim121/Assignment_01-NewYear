@@ -115,9 +115,6 @@
 
 /* Contact section */
 
-.section-contact{
-   
-}
 .contact{
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('/images/watch.png');
     background-repeat: no-repeat;
@@ -145,3 +142,69 @@
     color: #F15B22;
 }
 
+/* Footer */
+
+.footer{
+    background-color: #151414;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-item1{
+    padding-left: 200px;
+    padding-top: 110px;
+    padding-right: 200px;
+}
+.footer-item2{
+    padding-right: 200px;
+    padding-top: 110px;
+}
+.footer-item-title{
+    font-family: 'Work Sans';
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.footer-item-description{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.social-icon{
+    display: flex;
+    gap: 20px;
+}
+.footer-item2-title{
+    font-family: 'Work Sans';
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.footer-item2-input{
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #151414;
+    padding: 0 15px;
+    color: #FFFFFF;
+    width: 250px;
+    height: 60px;
+    text-align: left;
+    font-size: 20px;
+}
+.subcribe-btn{
+    height: 50px;
+    width: 150px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    font-weight: 600px;
+    font-size: 20px;
+    color: #F15B22;
+    margin-top: 20px;
+}
