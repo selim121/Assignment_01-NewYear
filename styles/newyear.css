@@ -81,9 +81,6 @@
 
 /* My plans section */
 
-.section-plan{
-    margin-bottom: 100px;
-}
 .plan-title{
     text-align: center;
     font-family: 'Work Sans';
@@ -95,7 +92,8 @@
 .plan{
     display: flex;
     justify-content: center;
-    gap: 130px;
+    gap: 43px;
+    
 }
 .plan-items{
     text-align: center;
@@ -115,4 +113,35 @@
     padding-top: 20px;
 }
 
+/* Contact section */
+
+.section-contact{
+   
+}
+.contact{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('/images/watch.png');
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 280px;
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 100px 230px;
+}
+.contact-title{
+   padding: 40px 350px 30px 50px;
+}
+.contact-btn{
+    height: 65px;
+    width: 160px;
+    background-color: #FFFFFF;
+    border: 2px solid #F15B22;
+    border-radius: 10px;
+    margin-left: 50px;
+    font-weight: 600px;
+    font-size: 20px;
+    color: #F15B22;
+}
 
